@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.center {
+  padding-left: calc(50% - 600px);
+  padding-right: calc(50% - 600px);
+}
+
+.top {
+  background-image: url(./images/top_base.jpeg);
+  height: 800px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.top__img-big {
+  position: absolute;
+  left: 854px;
+  top: -333px;
+  height: 1130px;
+  width: 1074px;
+}
+.top__img {
+  position: absolute;
+}/*# sourceMappingURL=style.css.map */
